@@ -1,0 +1,76 @@
+body {
+ font-family: 'Roboto', sans-serif;
+}
+
+.gehaktbrood {
+	width: 450px;
+	height: 450px;
+}
+
+body {
+	font-size: 20px;
+	line-height: 26px;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 36px;
+}
+
+.mainPage {
+margin: 0 25%;
+}
+
+.inleiding {
+	font-size: 24px;
+	line-height: 32px;
+	padding-bottom: 40px;
+}
+
+.subtitle {
+	font-size: 32px;
+	line-height: 32px;
+	padding-bottom: 40px;
+}
+
+.list1 {
+	margin-top: 10px;
+}
+
+.list2 {
+	margin-top: 20px;
+}
+
+.realList {
+	padding-bottom: 40px;
+}
+
+.tip {
+	padding: 25px;
+	background-color: #def6ed;
+	border-radius: 4px;
+}
+
+.menubar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: -webkit-sticky; /* Dit is voor Safari. Anders doet ie het niet op Safari. */
+    position: sticky;
+    top: 0;
+}
+
+.menuOptions {
+    float: left;
+    margin-left: 275px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
